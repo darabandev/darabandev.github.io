@@ -3800,6 +3800,10 @@ body.is-preload #header.alt .logo {
   #footer {
     padding: 3em 2em 1em 2em;
   }
+
+  .tech-stack li {
+    padding-bottom: 1em;
+  }
 }
 
 @media screen and (max-width: 480px) {
