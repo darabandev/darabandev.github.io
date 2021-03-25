@@ -6,4 +6,5 @@ const formSubmit = document.getElementById("form-submit");
 
 formSubmit.addEventListener("click", e => {
   console.log("hi");
+  console.log("hi");
 });
