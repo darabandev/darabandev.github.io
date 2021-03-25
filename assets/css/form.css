@@ -1,21 +1,21 @@
-#form-input-1,
-#form-input-2,
-#form-input-3,
-#form-text {
+#name-input,
+#email-input,
+#phone-input,
+#message-input {
   background-color: transparent !important;
   border-color: #000 !important;
   color: #000 !important;
   margin-bottom: 1em !important;
 }
 
-#form-text {
+#message-input {
   margin-bottom: 0 !important;
 }
 
-#form-input-1::placeholder,
-#form-input-2::placeholder,
-#form-input-3::placeholder,
-#form-text::placeholder {
+#name-input::placeholder,
+#phone-input::placeholder,
+#email-input::placeholder,
+#message-input::placeholder {
   color: #0008 !important;
 }
 
