@@ -8,6 +8,10 @@
   margin-bottom: 1em !important;
 }
 
+#form-text {
+  margin-bottom: 0 !important;
+}
+
 #form-input-1::placeholder,
 #form-input-2::placeholder,
 #form-input-3::placeholder,
@@ -16,5 +20,5 @@
 }
 
 #form-submit {
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
