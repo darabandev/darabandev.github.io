@@ -20,4 +20,9 @@ formSubmit.addEventListener("click", async e => {
     },
     body: JSON.stringify(data),
   });
+
+  nameInput.value = "";
+  phoneInput.value = "";
+  emailInput.value = "";
+  messageInput.value = "";
 });
