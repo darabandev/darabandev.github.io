@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="assets/css/form.css" />
   </head>
   <body class="is-preload">
     <!-- Wrapper -->
@@ -181,13 +182,13 @@
           <header class="major">
             <h2>Let's Get to Work</h2>
             <p>If you'd like to reach out, please enter your message and contact info here.</p>
-            <form class="form">
-              <input type="text" name="name" placeholder="Your name" />
-              <input type="text" name="email" placeholder="Your email address" />
-              <input type="text" name="phone" placeholder="Your phone number" />
-              <textarea placeholder="Please enter a message."></textarea>
+            <form id="form">
+              <input id="form-input-1" type="text" name="name" placeholder="Your name" />
+              <input id="form-input-2" type="text" name="email" placeholder="Your email address" />
+              <input id="form-input-3" type="text" name="phone" placeholder="Your phone number" />
+              <textarea id="form-text" placeholder="Please enter a message."></textarea>
             </form>
-            <button class="button primary">Submit</button>
+            <button class="button primary" id="form-submit">Submit</button>
           </header>
         </section>
       </div>

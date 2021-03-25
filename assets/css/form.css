@@ -1,0 +1,20 @@
+#form-input-1,
+#form-input-2,
+#form-input-3,
+#form-text {
+  background-color: transparent !important;
+  border-color: #000 !important;
+  color: #000 !important;
+  margin-bottom: 1em !important;
+}
+
+#form-input-1::placeholder,
+#form-input-2::placeholder,
+#form-input-3::placeholder,
+#form-text::placeholder {
+  color: #0008 !important;
+}
+
+#form-submit {
+  font-size: 0.9em;
+}
