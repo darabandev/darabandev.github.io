@@ -2918,6 +2918,11 @@ table.alt tbody tr td {
   }
 }
 
+.project-pic-container {
+  position: relative;
+  /* width: 50%; */
+}
+
 .project-pic {
   max-width: 100%;
   border: 1px solid #0005;
@@ -2926,6 +2931,38 @@ table.alt tbody tr td {
   -moz-border-radius: 1em;
   -ms-border-radius: 1em;
   -o-border-radius: 1em;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project-pic-container:hover .project-pic {
+  opacity: 0.3;
+}
+
+.project-pic-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 @media screen and (max-width: 736px) {
