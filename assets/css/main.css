@@ -2918,6 +2918,16 @@ table.alt tbody tr td {
   }
 }
 
+.project-pic {
+  max-width: 100%;
+  border: 1px solid #0005;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+}
+
 @media screen and (max-width: 736px) {
   .features {
     width: 100%;
