@@ -2961,6 +2961,19 @@ table.alt tbody tr td {
   padding: 16px 32px;
 }
 
+.overlay-btns button:first-of-type {
+  margin-bottom: 1em;
+}
+
+.project-btn {
+  background-color: #fff !important;
+}
+
+.project-link * {
+  text-decoration: none !important;
+  font-size: 1.1em;
+}
+
 @media screen and (max-width: 736px) {
   .features {
     width: 100%;
